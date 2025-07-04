@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cek Kelulusan GGR 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Halaman Form -->
+  <div class="container" id="formPage">
+    <h1>Cek Kelulusan Oprec GGR 2025</h1>
+    <input type="text" id="nama" placeholder="Nama Lengkap" />
+    <input type="date" id="tglLahir" />
+    <button onclick="cekKelulusan()">Cek Status</button>
+  </div>
+
+  <!-- Halaman Hasil -->
+  <div class="container hidden" id="resultPage">
+    <h2 id="judulHasil"></h2>
+    <p id="pesanHasil"></p>
+    <button onclick="kembali()">Cek Lagi</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
